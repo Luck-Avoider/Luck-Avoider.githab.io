@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<!--говорит о том какую версию мы используем нужен для браузера -->
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <!-- название кодировки и мета теги дают доп информацию для браузера  -->
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+    <title>Luck Avoider</title>
+    <!-- название ссылки -->
+    <link rel="stylesheet" href="progect_1.css">
+  </head>
+  <body>
+    <div class="container">
+      <div class="info">
+        <img src="Avatar.jpg" alt="Тут должно быть фото" class="Avatar"></td>
+        <div class="info_text">
+        <h1>Luck Avoider</h1>
+        <p>Я начинающий <strong>програмист</strong></p>
+        <p>Я люблю путешествовать, програмировать и заниматься спортом</p> <!--тег i лучше не  использовать а использовать em  --></td>
+        <h4>Мои социальные сети</h4>
+        <a href="http://t.me/luck_Avoider" target="_blank">Мой Тг</a>
+        |
+        <a href="http://vk.com/levais_s" target="_blank">Мой ВК</a>
+        </div>
+      </div>
+      
+      <div class="card bg-yellow">
+        <h2>Мои хобби</h2>
+        <ol class="list"><!-- Список с цифрами -->
+          <li>Powerlifting</li>
+          <li>Туризм</li>
+          <li>Snowboarding</li>
+        </ol>
+      </div>
+      
+      <div class="card bg-green">
+        <h2>Опыт работы</h2>
+        <table class="table"><!-- необезательно но можно разбить таблицу на блоки чтобы было удобней к ним обращаться thead tbody tfoot -->
+          <tr><!-- строка -->
+            <td>Ростелеком</td><!-- столбец -->
+            <td>Старший специалист по прадажам</td>
+            <td>2022</td>
+          </tr>
+          <tr>
+            <td>Европпа пицца</td>
+            <td>Промоутер</td>
+            <td>2023</td>
+          </tr>
+        </table>
+      </div>
+      
+      <div class="card bg-red">
+        <h2>Пройденные курсы</h2>
+        <ul class="link_list">
+          <li><a href="https://www.youtube.com/watch?v=DOEtVdkKwcU">HTML для Начинающих - Практический Курс</a></li>
+          <li><a href="https://www.youtube.com/watch?v=SpCUuyZZTp8&t=4553s">CSS для Начинающих - Практический Курс</a></li>
+        </ul>
+      </div>
+      <div class="contact">
+        <h2>Связаться со мной</h2>
+        <form action="/">
+          <div class="row">
+            <div class="form-grup">
+              <label for="name">Ваше имя</label>
+              <input type="text" id="name" placeholder="Введите имя">
+            </div>
+            <div class="form-grup">
+              <label for="email">Ваш Email</label>
+              <input type="text" id="email" placeholder="Введите Email">
+            </div>
+          </div>
+            <div class="form-grup">
+              <label for="text">Ваше сообщение</label>
+              <textarea id="text" cols="10" rows="2"></textarea>
+            </div>
+          <input type="submit" value="Связаться" class="btn">
+        </form>
+      </div>
+      
+      <div class="position">
+        <div class="box"></div>
+      </div>
+    </div>
+    <div style="margin-bottom: 500px;"></div>
+  </body>
+</html>
